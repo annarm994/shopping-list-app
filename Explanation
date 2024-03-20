@@ -1,7 +1,7 @@
-We used the useImmer hook from the Immer library to manage state updates for a shopping list.
+I used the useImmer hook from the Immer library to manage state updates for a shopping list.
 
 State Initialization:
-We initialized the shoppingList state using useImmer, providing an initial array of item objects. Each item object contains nested properties.
+I initialized the shoppingList state using useImmer, providing an initial array of item objects. Each item object contains nested properties.
 
 State Updates:
 useImmer allows us to directly modify nested state properties in an immutable way.
