@@ -1,0 +1,11 @@
+We used the useImmer hook from the Immer library to manage state updates for a shopping list.
+
+State Initialization:
+We initialized the shoppingList state using useImmer, providing an initial array of item objects. Each item object contains nested properties.
+
+State Updates:
+useImmer allows us to directly modify nested state properties in an immutable way.
+Functions like addItem, updateItem, and removeItem by useImmer to update the shoppingList state.
+When adding a new item, we simply push the new item to the draft state array.
+When updating an existing item, we locate the item by its id in the draft state and update its properties directly.
+When removing an item, we find the index of the item by its id in the draft state array and splice it out.
